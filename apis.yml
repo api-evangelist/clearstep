@@ -1,8 +1,27 @@
 aid: clearstep
 name: Clearstep
-description: Clearstep is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Clearstep is a digital health company whose clinical AI agents automate patient
+  triage, scheduling, and care navigation for hospitals and health systems. Built on
+  gold-standard, nurse-developed clinical protocols and integrated with Epic and other
+  electronic health record systems, Clearstep's conversational Symptom Checker and
+  Clinical Triage products help patients understand their symptoms and get routed to the
+  right level of care, while reducing call-center and emergency-department burden for
+  provider organizations. The company sells to leading health systems nationwide and is
+  a Techstars-backed portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/clearstep/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.clearstep.health/_assets/v11/9d5dbe8b655647df58d6ecc477375f00f3bf2212.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +30,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Digital Health
+- Clinical Triage
+- Symptom Checker
+- Patient Navigation
+- Care Navigation
+- AI Agents
+- Scheduling
+- Health Systems
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://clearstep.health/
+- type: TrustCenter
+  url: https://trust.clearstep.health/
+- type: DomainSecurity
+  url: security/clearstep-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

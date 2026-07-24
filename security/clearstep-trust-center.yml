@@ -1,0 +1,14 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.clearstep.health/
+url: https://trust.clearstep.health/
+platform: Vanta
+# The trust center is live and Vanta-hosted; the certification list is rendered
+# client-side (Vanta SPA) and is not machine-extractable without Vanta's
+# authenticated API, so named certifications are left empty rather than fabricated.
+certifications: []
+evidence:
+  - source: https://trust.clearstep.health/
+    kind: trust-center
+    detail: "live HTTP 200, page title \"Clearstep Trust Center\", Vanta-hosted trust report"
